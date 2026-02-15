@@ -1,0 +1,27 @@
+{
+  "name": "env-guard-monitor",
+  "version": "1.0.0",
+  "description": "Real-time monitoring and alerting for environment variables",
+  "main": "src/monitor.js",
+  "type": "module",
+  "scripts": {
+    "start": "node src/monitor.js",
+    "watch": "node --watch src/monitor.js"
+  },
+  "keywords": ["monitor", "alerting", "real-time", "security"],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "chalk": "^4.1.2",
+    "commander": "^12.0.0",
+    "crypto-js": "^4.2.0",
+    "inquirer": "^9.2.16",
+    "node-notifier": "^10.0.1",
+    "ora": "^5.4.1",
+    "sql.js": "^1.10.3",
+    "uuid": "^9.0.1"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0"
+  }
+}
